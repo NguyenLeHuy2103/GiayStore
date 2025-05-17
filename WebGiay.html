@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopLeHuy</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <header class="fixed-header">
+    <nav class="navbar">
+      <div class="logo">HUYSTORE</div>
+      <ul class="nav-links">
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+      <!-- Thanh tìm kiếm -->
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Tìm sản phẩm..." />
+        <button id="searchButton">🔍</button>
+      </div>
+    </nav>
+  </header>
+  
+ 
+  <!-- <section class="hero"> -->
+    <!-- <h1>Chào mừng đến với Giày store </h1>
+    <p>Nơi cung cấp các mẫu giày thể thao </p> -->
+    <!-- <div class="slider">
+      <div class="slides">
+        <img src="images/Banner/banner_giay_2.jpg" alt="Quảng cáo 1">
+        <img src="images/Banner/banner_giay_3.jpg" alt="Quảng cáo 2">
+        <img src="images/Banner/banner_giay.jpg" alt="Quảng cáo 3">
+      </div>
+    </div> -->
+    <!-- Swiper -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="images/Banner/banner_giay_2.jpg" alt="Quảng cáo 1">
+    </div>
+    <div class="swiper-slide">
+      <img src="images/Banner/banner_giay_3.jpg" alt="Quảng cáo 2">
+    </div>
+    <div class="swiper-slide">
+      <img src="images/Banner/banner_giay.jpg" alt="Quảng cáo 3">
+    </div>
+  </div>
+
+  <!-- Dấu 3 chấm -->
+  <div class="swiper-pagination"></div>
+</div>
+  <!-- </section> -->
+
+  <section class="products">
+    <h2>Sản phẩm Nike</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="images/Nike/a2.jpg" alt="Giày 1" />
+        <h3>Nike Air Max 90 Triple Black</h3>
+        <p>1.500.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Nike/a3.jpg" alt="Giày 2" />
+        <h3>Nike Dunk Low Blue Whisper</h3>
+        <p>1.300.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Nike/Nike.jpg" alt="Giày 3" />
+        <h3>Nike Air More Uptempo</h3>
+        <p>1.200.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Nike/nike1.jpg" alt="Giày 4" />
+        <h3>Air Max 270 Black White</h3>
+        <p>1.200.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <h2>Sản phẩm Puma</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="images/Puma/a4.jpg" alt="Giày 1" />
+        <h3>Puma Sky Mid</h3>
+        <p>1.500.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Puma/puma.jpg" alt="Giày 2" />
+        <h3>Puma Ralph</h3>
+        <p>1.300.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Puma/puma1.jpg" alt="Giày 3" />
+        <h3>Puma Suede Classic</h3>
+        <p>1.200.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Puma/puma2.jpg" alt="Giày 4" />
+        <h3>Puma Rebound</h3>
+        <p>1.200.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+    </div>
+  </section>
+  <section class="products">
+    <h2>Sản phẩm Adidas</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="images/adidas/a1.jpg" alt="Giày 1" />
+        <h3>Giày Superstar</h3>
+        <p>1.500.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/adidas/a5.jpg" alt="Giày 2" />
+        <h3>Giày Adidas Run</h3>
+        <p>1.300.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/adidas/GAZELLE_Mau_xanh_da_troi.avif" alt="Giày 3" />
+        <h3>Giày GAZELLE xanh</h3>
+        <p>1.200.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product-card">
+        <img src="images/adidas/GAZELLE_1.avif" alt="Giày 4" />
+        <h3>Giày GAZELLE Đỏ</h3>
+        <p>1.200.000đ</p>
+        <button>Mua ngay</button>
+      </div>
+    </div>
+    <div class="pagination">
+      <a class="page active">1</a>
+      <a class="page">2</a>
+      <a class="page">3</a>
+      <span class="dots">...</span>
+      <a class="page">8</a>
+      <a class="page">9</a>
+      <a class="page">10</a>
+      <a class="next">NEXT</a>
+      <a class="next">❯</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer_row">
+        <div class="boxcenter">
+            <div class="boxfooter1 colorC">
+                <!-- <h4>FOLLOW US</h4> -->
+                <div class="add mrb10"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="add mrb10"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+
+            </div>
+            <div class="boxfooter2 colorC">
+                <!-- <h4>FOLLOW US</h4> -->
+                <div class="add mrb10 "><a href="">Giới thiệu</a></div>
+                <div class="add mrb10"><a href="">Hướng dẫn mua hàng</a></div>
+                <div class="add mrb10"><a href="">Chính sách đổi trả hàng</a></div>
+                <div class="add mrb10"><a href="">Chính sách giao - nhận</a></div>
+                <div class="add mrb10"><a href="">Bảo mật thông tin khách hàng</a></div>
+            </div>
+            <div class="boxfooter3 colorC">
+                <h4>FOLLOW US</h4>
+                <div class="add mrb10">Store I: 445 Sư Vạn Hạnh, P.12, Q.10.</div>
+                <div class="add mrb10">Store II: 48 Trần Quang Diệu, P.14, Q.3, TP.HCM</div>
+                <div class="add mrb10">Store III: 463 Quang Trung, P.10, Q.Gò Vấp, TP.HCM</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_row textalign colorC">
+        © 2025 - Nguyễn Lê Huy_DH52003771
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
